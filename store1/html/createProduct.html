@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Product</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="product">
+    <h3>Create New Product</h3>
+    <form id="productForm">
+      <input type="text" id="productName" placeholder="Product Name" required>
+      <input type="text" id="productDescription" placeholder="Description" required>
+      <input type="number" id="productPrice" placeholder="Price" required>
+      
+      <select id="productCategory" required>
+        <option value="">Select Category</option>
+        <!-- Categories will be dynamically added here -->
+      </select>
+      
+      <button type="submit" id="createProductBtn">Create Product</button>
+    </form>
+  </div>
+
+  <script src="../script/createProduct.js"></script>
+</body>
+</html>
+
+
+
+ 
